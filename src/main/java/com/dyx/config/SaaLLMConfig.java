@@ -1,6 +1,8 @@
 package com.dyx.config;
 
+import com.alibaba.cloud.ai.dashscope.api.DashScopeApi;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class SaaLLMConfig
@@ -31,7 +33,7 @@ public class SaaLLMConfig
     public DashScopeApi dashScopeApi()
     {
         return DashScopeApi.builder()
-                    .apiKey(System.getenv("aliQwen-api"))
+                    .apiKey("sk-255506ca196b48f38e686b3e82efac58")
                 .build();
     }
 }
