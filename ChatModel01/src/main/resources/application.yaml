@@ -9,7 +9,7 @@ server:
 
 spring:
   application:
-    name: SpringAiAlibaba
+    name: ChatModel01
   ai:
     dashscope:
       api-key: sk-255506ca196b48f38e686b3e82efac58

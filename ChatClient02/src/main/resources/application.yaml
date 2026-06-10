@@ -1,0 +1,18 @@
+server:
+  port: 8003
+  servlet:
+    encoding:
+      # 大模型对话中文乱码 UTF-8 编码处理
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: ChatClient02
+  ai:
+    dashscope:
+      api-key: sk-255506ca196b48f38e686b3e82efac58
+      chat:
+        options:
+          model: qwen3-max
