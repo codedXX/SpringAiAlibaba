@@ -30,6 +30,7 @@
         <module>Text2voice09</module>
         <module>Embed2vector10</module>
         <module>RAG4AiOps11</module>
+        <module>ToolCalling12</module>
     </modules>
 
     <properties>
