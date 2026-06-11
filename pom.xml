@@ -26,6 +26,7 @@
         <module>ChatPrompt04</module>
         <module>StructuredOutput06</module>
         <module>Persistent07</module>
+        <module>Text2image08</module>
     </modules>
 
     <properties>
