@@ -1,0 +1,36 @@
+server:
+  port: 8011
+  servlet:
+    encoding:
+      # 大模型对话中文乱码 UTF-8 编码处理
+      enabled: true
+      force: true
+      charset: UTF-8
+
+spring:
+  application:
+    name: Embed2vector10
+    # =======Redis Stack==========
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      username: default
+      password:
+      # =======Redis Stack==========
+  ai:
+    dashscope:
+      api-key: sk-255506ca196b48f38e686b3e82efac58
+      chat:
+        options:
+          model: qwen3-max
+      embedding:
+        options:
+          model: text-embedding-v4
+          # =======Redis Stack==========
+    vectorstore:
+      redis:
+        initialize-schema: true
+        index-name: custom-index
+        prefix: custom-prefix
+        # =======Redis Stack==========

@@ -28,6 +28,7 @@
         <module>Persistent07</module>
         <module>Text2image08</module>
         <module>Text2voice09</module>
+        <module>Embed2vector10</module>
     </modules>
 
     <properties>
@@ -47,6 +48,14 @@
     <!-- 统一管理版本号：子模块引依赖时不写 version -->
     <dependencyManagement>
         <dependencies>
+            <!-- Spring AI BOM：统一管理 org.springframework.ai 系列依赖版本 -->
+            <dependency>
+                <groupId>org.springframework.ai</groupId>
+                <artifactId>spring-ai-bom</artifactId>
+                <version>${spring-ai.version}</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
             <!--hutool-->
             <dependency>
                 <groupId>cn.hutool</groupId>
