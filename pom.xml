@@ -27,6 +27,7 @@
         <module>StructuredOutput06</module>
         <module>Persistent07</module>
         <module>Text2image08</module>
+        <module>Text2voice09</module>
     </modules>
 
     <properties>
