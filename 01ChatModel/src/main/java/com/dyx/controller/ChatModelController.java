@@ -14,7 +14,7 @@ public class ChatModelController
     private ChatModel dashScopeChatModel;
 
     /**
-     * http://localhost:8001/hello/dochat
+     * http://localhost:8001/chatmodel/dochat
      * @param msg
      * @return
      */

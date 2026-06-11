@@ -19,12 +19,12 @@ public class SaaLLMConfig
     private String apiKey;
 
 //    1.3
-    @Bean
-    public DashScopeApi dashScopeApi()
-    {
-        return DashScopeApi.builder().apiKey(apiKey).build();
-    }
-
+//    @Bean
+//    public DashScopeApi dashScopeApi()
+//    {
+//        return DashScopeApi.builder().apiKey(apiKey).build();
+//    }
+//
 
     /**
      * 方式2
