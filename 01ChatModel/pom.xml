@@ -8,11 +8,9 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.dyx</groupId>
-    <artifactId>Embed2vector10</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>Embed2vector10</name>
-    <description>Embed2vector文本向量化</description>
+    <artifactId>01ChatModel</artifactId>
+    <name>01ChatModel-ChatModel对话</name>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -44,12 +42,6 @@
         <dependency>
             <groupId>com.alibaba.cloud.ai</groupId>
             <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
-        </dependency>
-
-        <!-- 添加 Redis 向量数据库依赖 -->
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-vector-store-redis</artifactId>
         </dependency>
     </dependencies>
 

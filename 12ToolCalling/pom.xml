@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>com.dyx</groupId>
-    <artifactId>RAG4AiOps11</artifactId>
+    <artifactId>12ToolCalling</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>RAG4AiOps11</name>
-    <description>RAG检索增强生成</description>
+    <name>12ToolCalling</name>
+    <description>ToolCalling工具调用</description>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -44,11 +44,6 @@
         <dependency>
             <groupId>com.alibaba.cloud.ai</groupId>
             <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
-        </dependency>
-        <!-- 添加 Redis 向量数据库依赖 -->
-        <dependency>
-            <groupId>org.springframework.ai</groupId>
-            <artifactId>spring-ai-starter-vector-store-redis</artifactId>
         </dependency>
     </dependencies>
 

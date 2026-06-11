@@ -19,18 +19,18 @@
     <name>SpringAIAlibaba-Maven父工程POM配置</name>
 
     <modules>
-        <module>ChatModel01</module>
-        <module>ChatClient02</module>
-        <module>StreamingOutput03</module>
-        <module>PromptTemplate05</module>
-        <module>ChatPrompt04</module>
-        <module>StructuredOutput06</module>
-        <module>Persistent07</module>
-        <module>Text2image08</module>
-        <module>Text2voice09</module>
-        <module>Embed2vector10</module>
-        <module>RAG4AiOps11</module>
-        <module>ToolCalling12</module>
+        <module>01ChatModel</module>
+        <module>02ChatClient</module>
+        <module>03StreamingOutput</module>
+        <module>04ChatPrompt</module>
+        <module>05PromptTemplate</module>
+        <module>06StructuredOutput</module>
+        <module>07Persistent</module>
+        <module>08Text2image</module>
+        <module>09Text2voice</module>
+        <module>10Embed2vector</module>
+        <module>11RAG4AiOps</module>
+        <module>12ToolCalling</module>
     </modules>
 
     <properties>

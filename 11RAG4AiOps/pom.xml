@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>com.dyx</groupId>
-    <artifactId>Persistent07</artifactId>
+    <artifactId>11RAG4AiOps</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Persistent07</name>
-    <description>Persistent持久化</description>
+    <name>11RAG4AiOps</name>
+    <description>RAG检索增强生成</description>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -45,16 +45,10 @@
             <groupId>com.alibaba.cloud.ai</groupId>
             <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
         </dependency>
-
-        <!--spring-ai-alibaba memory-redis-->
+        <!-- 添加 Redis 向量数据库依赖 -->
         <dependency>
-            <groupId>com.alibaba.cloud.ai</groupId>
-            <artifactId>spring-ai-alibaba-starter-memory-redis</artifactId>
-        </dependency>
-        <!--jedis-->
-        <dependency>
-            <groupId>redis.clients</groupId>
-            <artifactId>jedis</artifactId>
+            <groupId>org.springframework.ai</groupId>
+            <artifactId>spring-ai-starter-vector-store-redis</artifactId>
         </dependency>
     </dependencies>
 

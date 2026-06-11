@@ -8,9 +8,11 @@
         <version>0.0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>ChatModel01</artifactId>
-    <name>chatModel01-ChatModel对话</name>
-
+    <groupId>com.dyx</groupId>
+    <artifactId>03StreamingOutput</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>03StreamingOutput</name>
+    <description>StreamingOutput流式输出</description>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>com.dyx</groupId>
-    <artifactId>Text2image08</artifactId>
+    <artifactId>04ChatPrompt</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Text2image08</name>
-    <description>Text2image文生图</description>
+    <name>04ChatPrompt</name>
+    <description>chatPrompt提示词</description>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>

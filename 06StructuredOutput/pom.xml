@@ -9,10 +9,10 @@
     </parent>
 
     <groupId>com.dyx</groupId>
-    <artifactId>StreamingOutput03</artifactId>
+    <artifactId>06StructuredOutput</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>StreamingOutput03</name>
-    <description>StreamingOutput流式输出</description>
+    <name>06StructuredOutput</name>
+    <description>StructuredOutput结构化输出</description>
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
