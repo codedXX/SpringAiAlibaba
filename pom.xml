@@ -24,6 +24,7 @@
         <module>StreamingOutput03</module>
         <module>PromptTemplate05</module>
         <module>ChatPrompt04</module>
+        <module>StructuredOutput06</module>
     </modules>
 
     <properties>
