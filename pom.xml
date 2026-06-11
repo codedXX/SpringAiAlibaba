@@ -25,6 +25,7 @@
         <module>PromptTemplate05</module>
         <module>ChatPrompt04</module>
         <module>StructuredOutput06</module>
+        <module>Persistent07</module>
     </modules>
 
     <properties>
@@ -60,6 +61,12 @@
             <dependency>
                 <groupId>com.alibaba.cloud.ai</groupId>
                 <artifactId>spring-ai-alibaba-starter-dashscope</artifactId>
+                <version>${SpringAIAlibaba.version}</version>
+            </dependency>
+            <!-- 对话记忆 Redis 持久化 -->
+            <dependency>
+                <groupId>com.alibaba.cloud.ai</groupId>
+                <artifactId>spring-ai-alibaba-starter-memory-redis</artifactId>
                 <version>${SpringAIAlibaba.version}</version>
             </dependency>
         </dependencies>
