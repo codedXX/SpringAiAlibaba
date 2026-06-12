@@ -13,12 +13,12 @@ public class SaaLLMConfig
 
     @Value("${spring.ai.dashscope.api-key}")
     private String apiKey;
-
-    @Bean
-    public DashScopeApi dashScopeApi()
-    {
-        return DashScopeApi.builder().apiKey(apiKey).build();
-    }
+//
+//    @Bean
+//    public DashScopeApi dashScopeApi()
+//    {
+//        return DashScopeApi.builder().apiKey(apiKey).build();
+//    }
 
     /**
      * 知识出处：
