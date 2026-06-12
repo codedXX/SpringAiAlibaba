@@ -47,6 +47,10 @@ public class SaaLLMConfig {
                 .build();
     }
 
+    /**
+     @Qualifier("deepseek") 是什么意思?
+     它的作用是:当按类型注入会遇到多个候选 Bean 时,用名字精确指定要注入哪一个。
+     */
     @Bean(name = "deepseekChatClient")
     public ChatClient deepseekChatClient(@Qualifier("deepseek") ChatModel deepSeek) {
         return ChatClient.builder(deepSeek)
